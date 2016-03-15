@@ -27,4 +27,5 @@ Y ya tendremos nuestros servidor corriendo en localhost:3000.
 
 _Importante: En el gulpfile, hay que poner el proxy donde está escuchando nuestra instalación de WP_
 
-Vamos a probar las ramas.
+**Notas**:
+Es muy importante cargar datos de ejemplo o archivos sample para editar en caliente los elementos.
