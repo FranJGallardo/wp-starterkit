@@ -32,7 +32,7 @@ gulp.task('stylus',function(){
 		use: nib(),
 		'include css': true
 	}))
-	.pipe(minifyCSS())
+	// .pipe(minifyCSS())
 	.pipe(gulp.dest('./'))
 	.pipe( reload( { stream: true }));
 
