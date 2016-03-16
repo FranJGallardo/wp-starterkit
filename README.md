@@ -8,9 +8,9 @@ El archivo más importante es el _gulpfile.js_
 
 Para iniciar el proyecto:
 
-1.- Arrancamos el servidor local Apache o Ngix
-1.- Entrar al backend wordpress y en Aspecto activar la plantilla starter
-1.- Arrancamos gulp en el terminal:
+1. Arrancamos el servidor local Apache o Ngix
+1. Entrar al backend wordpress y en Aspecto activar la plantilla starter
+1. Arrancamos gulp en el terminal:
 
 ```
 npm install
