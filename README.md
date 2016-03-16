@@ -1,5 +1,10 @@
 #Starter Kit para crear temas de Wordpress
 
+##Versión
+_0.0.1_
+Quedan pendientes las páginas de autor, plantillas de página, etc. Se irán incorporando poco a poco al build.
+
+
 ##Objetivo
 Crear un punto de partida y crear un entorno de desarrollo basado en _stylus_ como pre-procesador de **CSS** y _gulp_ con browser-sync y desarrollo real time.
 El archivo más importante es el _gulpfile.js_
