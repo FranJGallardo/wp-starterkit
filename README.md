@@ -49,6 +49,6 @@ Description: Este es un tema de inicio para crear themes de Wordpress usando com
 Version: 0.1
 License: GNU General Public License v2 or later
 License URI: http://www.gnu.org/licenses/gpl-2.0.html
-Text Domain: fg-starterkit
+Text Domain: theme
 */
 ```
