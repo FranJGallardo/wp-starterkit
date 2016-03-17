@@ -1,3 +1,10 @@
+<?php
+/**
+ * Abstracting the single article content
+ * @package Theme
+ */
+?>
+
 <article <?php post_class(); ?>>
 	<header class="entry-header">
 		<h1><?php the_title(); ?></h1>

@@ -43,10 +43,10 @@ if ( ! function_exists( 'theme_entry_footer' ) ) :
  */
 function theme_entry_footer() {
 	// Hide category and tag text for pages.
-	if ( 'post' == get_post_type() ) {
+	if ( 'post' === get_post_type() ) {
 		/* translators: used between list items, there is a space after the comma */
 		$categories_list = get_the_category_list( __( ', ', 'theme' ) );
-		if ( $categories_list && theme_categorized_blog() ) {
+		if ( $categories_list) {
 			printf( '<span class="cat-links">' . __( 'Posted in %1$s', 'theme' ) . '</span>', $categories_list );
 		}
 

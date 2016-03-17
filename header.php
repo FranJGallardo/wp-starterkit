@@ -1,4 +1,12 @@
-<!DOCTYPE html>
+<?php
+/**
+ * The header for our theme.
+ *
+ * Displays all of the <head> section and everything up till <div id="content">
+ *
+ * @package Theme
+ */
+?><!DOCTYPE html>
 <html lang="<?php language_attributes(); ?>">
 <head>
 	<meta charset="<?php bloginfo('charset'); ?>">
@@ -11,7 +19,10 @@
 <body <?php body_class(); ?>>
 	
 	<header>
-		<h1><?php bloginfo('name'); ?></h1>
+		<div class="site-branding">
+			<h1 class="site-title"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></h1>
+			<h2 class="site-description"><?php bloginfo( 'description' ); ?></h2>
+		</div><!-- .site-branding -->
 		<nav>
 			<button class="menu-toggle" aria-controls="primary-menu" aria-expanded="false"><?php _e( 'Primary Menu', 'theme' ); ?></button>
 			<?php wp_nav_menu( array( 'theme_location' => 'primary', 'menu_id' => 'primary-menu' ) ); ?>
