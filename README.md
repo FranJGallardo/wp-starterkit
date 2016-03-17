@@ -1,9 +1,16 @@
 #Starter Kit para crear temas de Wordpress
 
 ##Versión
-_0.0.1_
-Quedan pendientes las páginas de autor, plantillas de página, etc. Se irán incorporando poco a poco al build.
-
+0.1.2
+###Changelog
+- _16/03/2016_: Se ha subido la versión inicial.
+- _17/03/2016_: 
+	- Se añade una plantilla para searchform.php
+	- Se añade navegación entre single post con enlaces
+	- Se añade template de comentarios
+	- Se añade template de archivo
+	- Se modifica y mejora la plantilla de página
+	- Se mejora las plantillas de resultados de búsqueda y 404
 
 ##Objetivo
 Crear un punto de partida y crear un entorno de desarrollo basado en _stylus_ como pre-procesador de **CSS** y _gulp_ con browser-sync y desarrollo real time.

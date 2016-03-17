@@ -1,3 +1,13 @@
+<?php
+/**
+ * The template part for displaying a message that posts cannot be found.
+ *
+ * Learn more: http://codex.wordpress.org/Template_Hierarchy
+ *
+ * @package Theme
+ */
+?>
+
 <section>
 	<header>
 		<h1><?php _e( 'Nothing Found', 'theme' ); ?></h1>
