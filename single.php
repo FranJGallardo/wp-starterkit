@@ -1,3 +1,12 @@
+<?php 
+/**
+ * The single post template.
+ *
+ * @package Theme
+ */
+?>
+
+
 <?php get_header(); ?>
 <!-- Contenido del post -->
 

@@ -43,9 +43,9 @@ function theme_setup() {
 	add_theme_support( 'post-thumbnails' );
 
 	// This theme uses wp_nav_menu() in one location.
-	// register_nav_menus( array(
-	// 	'primary' => __( 'Primary Menu', 'theme' ),
-	// ) );
+	register_nav_menus( array(
+		'primary' => __( 'Starter Kit Primary Menu', 'theme' ),
+	) );
 
 	/*
 	 * Switch default core markup for search form, comment form, and comments
@@ -81,7 +81,7 @@ function theme_widgets_init() {
 	register_sidebar( array(
 		'name'          => __( 'Sidebar', 'theme' ),
 		'id'            => 'sidebar-1',
-		'description'   => '',
+		'description'   => __( 'This is the first sidebar from the Wordpress starter Kit.', 'theme' ),
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
 		'before_title'  => '<h1 class="widget-title">',
