@@ -101,8 +101,8 @@ add_action( 'widgets_init', 'theme_widgets_init' );
  */
 function theme_scripts() {
 	wp_enqueue_style( 'theme-style', get_stylesheet_uri() );
-
-	wp_enqueue_script('jquery');
+	//Descomentar para incluir el jquery que trae wordpress incorporado
+	//wp_enqueue_script('jquery');
 	   
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js',true);	
 
