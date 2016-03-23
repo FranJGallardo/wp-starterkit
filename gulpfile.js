@@ -17,6 +17,11 @@ gulp.task( 'server', function() {
   // Recargamos el navegador si cualquier archivo .php tiene cambios
   watch( './**/*.php', reload);
 
+  //Javascript
+    gulp.watch('./js/**/*.js', function(){
+    gulp.start('js');
+  });
+
   // Recompile stylus 
   watch( './stylus/**/*.styl', function() {
     gulp.start( 'stylus' );
@@ -38,6 +43,15 @@ gulp.task('stylus',function(){
 
 });
 
-gulp.task('default',['server','stylus'], function(){
+//Javascript
+
+gulp.task('js',function(){
+  gulp.src('./js/src/main.js')
+    .pipe(uglify())
+    .pipe(gulp.dest('./js'))
+    .pipe( reload({stream:true }));
+});
+
+gulp.task('default',['server','stylus','js'], function(){
 	console.log('Hecho.');
 })
